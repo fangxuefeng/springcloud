@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloudclient" />
+        <module name="springcloudconfigclient" />
+        <module name="springcloudconfigserver" />
+        <module name="springclouddocker" />
+        <module name="springcloudprovider" />
+        <module name="springcloudserver" />
+        <module name="springcloudzuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud" target="1.5" />
+      <module name="springcloud-client" target="1.8" />
+      <module name="springcloud-server" target="1.8" />
+      <module name="springcloudclient" target="1.6" />
+      <module name="springcloudconfigclient" target="1.6" />
+      <module name="springcloudconfigserver" target="1.6" />
+      <module name="springclouddocker" target="1.6" />
+      <module name="springcloudprovider" target="1.6" />
+      <module name="springcloudserver" target="1.5" />
+      <module name="springcloudzuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+  </component>
+</project>

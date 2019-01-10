@@ -1,0 +1,4 @@
+springcloud/eureka/provider/service/impl/HelloWorldImpl.class
+springcloud/eureka/provider/EurekaProviderApplication.class
+springcloud/eureka/provider/controller/HelloWorldController.class
+springcloud/eureka/provider/service/HelloWorld.class
